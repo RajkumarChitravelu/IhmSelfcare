@@ -1,0 +1,15 @@
+<label for="num">nombres d'instances souhaité:</label>
+
+<input (keyup)="OnKey($event)" type="number" id="num" name="num" />
+<button (click)="generateRow()">Générer</button>
+{{ number }}
+<table style="border: 2px solid">
+  <tr>
+    <th>colonne 1</th>
+    <th>colonne 2</th>
+  </tr>
+  <tr>
+    <td>info 1</td>
+    <td>info 2</td>
+  </tr>
+</table>
